@@ -19,4 +19,21 @@
         android:paddingBottom="10dp"
         android:paddingTop="10dp" />
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        android:id="@+id/rlayUserInfo">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_centerInParent="true"
+                tools:text="Informaciòn de usuarios"
+                android:id="@+id/tviUsername"/>
+
+    </RelativeLayout>
+
 </RelativeLayout>

@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">My Application</string>
 
-    <string name="facebook_app_id">309945009387024</string>
+    <string name="facebook_app_id">1737175093211610</string>
 
     <string name="welcome">Bienvenido</string>
     <string name="cancel_login">Se canceló la operación</string>
