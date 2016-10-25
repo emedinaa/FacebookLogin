@@ -5,24 +5,27 @@ Generar Key Hashes en debug :
 
 MacOSx
 
+```
 keytool -exportcert -alias androiddebugkey -keystore ~/.android/debug.keystore | openssl sha1 -binary | openssl base64
+```
 
 clave :  android
 
 Key Hashes : 
 
+```
 aXXXXXXXXXXXXXXXXXXXXXXXXXX=
+```
 
 
-
-´´´
+```
 @Override
 public void onCreate() {
     super.onCreate();
     FacebookSdk.sdkInitialize(getApplicationContext());
     AppEventsLogger.activateApp(this);
 }
-´´´
+```
 
 Configuraciòn Android
 
